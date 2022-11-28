@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 
 // es correcto dejarlo afuera del scope
 const newMessage = {
@@ -10,8 +11,9 @@ const getResult = (a,b) =>{
   return a * b;
 }
 
-export const FirstApp = () => {
-
+export const FirstApp = ({title, subtitle}) => {
+console.log('title ', title);
+console.log('subtitle ', subtitle);
   return (
     (
       <>
