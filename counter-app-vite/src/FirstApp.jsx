@@ -17,7 +17,11 @@ console.log('subtitle ', subtitle);
   return (
     (
       <>
-        <h1>{getResult(2,5)}</h1>
+        {/*
+          <h1>{getResult(2,5)}</h1>
+        */}
+        
+        <h1>{title}</h1>
 
         {/*
           comentario en jsx
@@ -31,6 +35,19 @@ console.log('subtitle ', subtitle);
   )
 
 }
+
+FirstApp.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.number.isRequired
+}
+
+FirstApp.defaultProps = {
+  name: 'Edu Flores',
+  title : 'No hay titulo',
+  subtitle: 'No hay subtitulo'
+  
+}
+
 
 
 
