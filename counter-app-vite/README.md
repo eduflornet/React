@@ -14,3 +14,6 @@
 - [Useful React snippets for VS Code from the ES7 extension](https://medium.com/@tara.kelly16/useful-react-snippets-for-vs-code-from-the-es7-extension-5b22ffc60f0c)
 - [Events](https://es.reactjs.org/docs/events.html) 
 - [useState  - React Hook](https://es.reactjs.org/docs/hooks-intro.html)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- 
