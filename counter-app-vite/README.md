@@ -16,4 +16,4 @@
 - [useState  - React Hook](https://es.reactjs.org/docs/hooks-intro.html)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
-- 
+- [Jest Babel Configuration](https://jestjs.io/docs/getting-started)
