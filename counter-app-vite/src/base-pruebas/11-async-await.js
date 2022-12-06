@@ -3,7 +3,7 @@
 // const getImagenPromesa = () => new Promise( resolve => resolve('https://ajskdhaskjdhajs.com') )
 // getImagenPromesa().then( console.log );
 
-const getImagen = async() => {
+export const getImagen = async() => {
 
     try {
 
@@ -19,7 +19,8 @@ const getImagen = async() => {
 
     } catch (error) {
         // manejo del error
-        console.error(error)
+        console.error(error);
+        return 'No se encontro la imagen';
     }
     
     
